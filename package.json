@@ -1,0 +1,35 @@
+{
+  "name": "tetrisjs",
+  "version": "1.0.0",
+  "description": "a tetris game with javascript",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ibrahimtezvergil/tetrisjs.git"
+  },
+  "keywords": [
+    "javascript",
+    "tetris"
+  ],
+  "author": "ibrahim tezvergil",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ibrahimtezvergil/tetrisjs/issues"
+  },
+  "homepage": "https://github.com/ibrahimtezvergil/tetrisjs#readme",
+  "devDependencies": {
+    "@babel/core": "^7.12.13",
+    "@babel/preset-env": "^7.12.13",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.0.1",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.20.2",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {}
+}
