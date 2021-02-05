@@ -1,0 +1,38 @@
+import {GRID_WIDTH} from "./grid.js";
+
+const lTetromino= [
+    [1,2,3,GRID_WIDTH+1],
+    [1,2,GRID_WIDTH+2,(GRID_WIDTH) *2+2],
+    [1,GRID_WIDTH +1, (GRID_WIDTH) *2 + 1 ,(GRID_WIDTH) *2 +2 ],
+    [3,GRID_WIDTH +1,GRID_WIDTH +2,GRID_WIDTH +3],
+]
+
+const iTetromino= [
+    [1,GRID_WIDTH +1,GRID_WIDTH*2+1,GRID_WIDTH*3+1],
+    [GRID_WIDTH,GRID_WIDTH+1,GRID_WIDTH+2,GRID_WIDTH+3],
+    [1,GRID_WIDTH +1,GRID_WIDTH*2+1,GRID_WIDTH*3+1],
+    [GRID_WIDTH,GRID_WIDTH+1,GRID_WIDTH+2,GRID_WIDTH+3],
+]
+
+const oTetromino= [
+    [0,1,GRID_WIDTH,GRID_WIDTH+1],
+    [0,1,GRID_WIDTH,GRID_WIDTH+1],
+    [0,1,GRID_WIDTH,GRID_WIDTH+1],
+    [0,1,GRID_WIDTH,GRID_WIDTH+1],
+]
+
+const zTetromino= [
+    [0,GRID_WIDTH,GRID_WIDTH +1,GRID_WIDTH*2 +1],
+    [GRID_WIDTH +1,GRID_WIDTH +2,GRID_WIDTH *2 ,GRID_WIDTH*2+1],
+    [0,GRID_WIDTH,GRID_WIDTH +1,GRID_WIDTH*2 +1],
+    [GRID_WIDTH +1,GRID_WIDTH +2,GRID_WIDTH *2 ,GRID_WIDTH*2+1],
+]
+
+const tTetromino= [
+    [1,GRID_WIDTH,GRID_WIDTH +1 ,GRID_WIDTH +2],
+    [1,GRID_WIDTH,GRID_WIDTH + 1,GRID_WIDTH*2+1],
+    [0,1,2,GRID_WIDTH+1],
+    [0,GRID_WIDTH,GRID_WIDTH+1,GRID_WIDTH *2],
+]
+
+export const tetrominoes = [lTetromino,iTetromino,oTetromino,zTetromino,tTetromino]
